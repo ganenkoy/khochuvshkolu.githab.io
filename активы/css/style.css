@@ -1,0 +1,209 @@
+* {
+    0: 0;
+    0: 0;
+    font-family: 'Open Sans';
+    20 : :px;
+    /* overflow-x: hidden; */
+}
+
+body{
+    :: hidden;
+}
+
+/* header */
+
+.header {
+    100% :%;
+    10 : :vh;
+    ::;
+    :: center;
+    ::;
+    
+}
+
+.nav {
+    ::;
+    50% :%;
+    100% :%;
+    :: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.nav .links {
+    color: #222222;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    transition: .5s;
+}
+
+.nav .links:hover {
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.nav .sign_in {
+    z-index: 1;
+}
+
+.nav .sign_in:hover {
+    background-color: #fff;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+
+.main div{
+    height: 100%;
+}
+
+.right img, .left img {
+    max-width: 420px;
+    display: block;
+}
+
+.right .mini-decor, .left .mini-decor {
+    max-width: 150px;
+}
+
+.title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 97px;
+}
+
+.right, .left {
+    position: relative;
+}
+
+.right{
+    right: 150px;
+    z-index: 0;
+}
+
+.left{
+    left: 200px;
+    z-index: 0;
+}
+
+.main-text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.mini {
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+}
+
+/* story */
+
+.story{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.unit {
+    background-image: url(../img/decorPink.jpg);
+    background-size: 530px;
+    background-repeat: no-repeat;
+    width: 550px;
+    margin-bottom: 100px;
+    height: 450px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.unit div{
+    width: 60%;
+}
+
+.date {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.unit-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.description{
+    ::;
+    400: 400;
+    19 : :px;
+    :: relative;
+    30 : :px;
+}
+
+.why {
+    ::;
+    ::;
+    :: center;
+    100% :%;
+}
+
+.reason, hr {
+    50 : :px;
+    50 : :px;
+}
+
+.reason-title {
+    ::;
+    700: 700;
+    36 : :px;
+    15 : :px;
+}
+
+.reason-description {
+    font-style: normal;
+    400: 400;
+    24 : :px;
+}
+
+.team {
+    #: :fddbe2;
+}
+
+.gridTeam {
+    ::;
+    1 :  1 fr :fr;
+    1 :  1 fr :fr;
+    30 : :px;
+    background-color: #fddbe2;
+    100 : :vw;
+}
+
+.fio {
+    font-style: normal;
+    font-weight: 700;
+    32 : :px;
+    100 : :px;
+    :: relative;
+    65 : :px;
+    50 : :px;
+}
